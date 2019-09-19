@@ -1,50 +1,106 @@
-#homepageintro{
-
-
-}
-#homepagebg{
-	position: relative;
-
-	height: 100vh;
-	
-
-	
-}
-
-#cc{
-	height: 100vh;
-	
-	display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-	text-align: center;
-	
-}
-#homepagebg img{
-	max-width: 100%
-}
-
 #header{
-  padding: 30px 0;
-  height: 92px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997;
+height: 5vh;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+z-index: 997;
+}
+.subnav{
+margin-top: 10vh;
+}
+
+.projecthome{
+	margin-top: 15vh;
+}
+
+.projecthome_image img{
+	width: 100%;
+}
+
+
+.projecthome_text{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.project-container{
+width: 70%;
+}
+
+.projectintro{
+position: relative;
+width: 100%;
+height: 85vh;
+}
+
+.projectintro_container{
+height: 100%;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.projectdetail_container{
+	margin-bottom: 10vh;
+}
+
+.projectdetail_i img{
+	width: 100%;
+}
+
+
+.projectdetail_i_ar img{
+	height: 100vh;
+}
+
+.projectdetail_i_80h img{
+	height: 80vh;
+}
+
+
+.projectdetail_content{
+	margin-top: 100px;
+}
+.projectdetail_t{
+	margin-bottom: 50px;
+}
+
+
+#name{
+justify-content: center;
+text-align: center;
+
+}
+.introbg{
+background-color: white;
+position: relative;
+width: 100%;
+height: 95vh;
+}
+#homepageintro_content h5{
+color:black;
+}
+#homepageintro_content p{
+color:black;
+}
+#homepageintro_indicator li{
+background-color: black;
+}
+.introtext{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.introtext img{
+width: 60%;
+}
+#readmore{
+height: 5vh;
+justify-content: center;
+text-align: center;
+align-items: center;
 }

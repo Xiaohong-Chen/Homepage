@@ -1,39 +1,111 @@
-﻿<n<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf=8"> 
-	<title>XIAOHONG CHEN HOMEPAGE</title>
-	<link rel="stylesheet" href="css/style.css"/>	
-</head>
-<body>
-<header role="banner">
-	<div class="nav-main">
-  		<ul>
-			
-     			<li><a href="index.html">HOME</a></li>
-     			<li><a href="architect.html">ARCHITECT</a></li>
-    			<li><a href="programmer.html">PROGRAMMER</a></li>
-			<li><a href="psychologue.html">PSYCHOLOGUE</a></li>
-			<li><a href="contact.html">CONTACT</a></li>
-		</ul>
-	</div>
-</header>
-<hr>
-<main>
-	<div class="main-logo">
+	<head>
+		<meta charset="utf=8">
+		<title>Xiaohong</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-expand-sm navbar-light bg-white justify-content-center" style="border-bottom: 1px solid silver">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="programmer.html">Programming</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="architect.html">Architecture</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="subnav">
+			<div class="text-center">
+				<nav class="navbar navbar-expand-sm navbar-light justify-content-center" style="height: 5vh" >
+					<ul class="navbar-nav">
+						<li class="nav-item mx-2">
+							<a class="nav-link active" href="architect.html">All</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="architect_library.html">Library</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="architect_museum.html">Museum</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="architect_evolo.html">Evolo</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 		
-		<a href="architect/library/library.html"><img src="architect/library/logo.jpg"/></a>
-
-		<a href="architect/museum/museum.html"><img src="architect/museum/logo.jpg"/></a>
-	
-		<a href="architect/evolo/evolo.html"><img src="architect/evolo/logo.jpg"/></a>
-			
-		
-	</div>
-
-</main>
-<footer>
-
-</footer>
-</body>
+		<div class="project">
+			<div class="project-container mx-auto">
+				<div class="container-fluid">
+					<div class="projecthome">
+						<div class="projecthome_container">
+							<div class="projecthome_content">
+								<div class="row mt-5">
+									<div class="col">
+										<div class="projecthome_image">
+											<a href="architect_library.html">
+												<img src="image\architect\home\intro-library.jpg" class="rounded" alt="...">
+											</a>
+										</div>
+										
+										<div class="projecthome_text text-center">
+											<h5>Library</h5>
+											<p>
+												2012 | Community Library Design
+											</p>
+											
+										</div>
+									</div>
+									<div class="col">
+										<div class="projecthome_image">
+											<a href="architect_museum.html">
+												<img src="image\architect\home\intro-museum.jpg" class="rounded" alt="...">
+											</a>
+										</div>
+										
+										<div class="projecthome_text text-center">
+											<h5>Museum</h5>
+											<p>
+												2013 | Contemporary Museum Design
+											</p>
+										</div>
+									</div>
+									<div class="col">
+										<div class="projecthome_image">
+											<a href="architect_evolo.html">
+												<img src="image\architect\home\intro-evolo.jpg" class="rounded" alt="...">
+											</a>
+										</div>
+										
+										<div class="projecthome_text text-center">
+											<h5>Evolo</h5>
+											<p>
+												2016 | Indian slums Skyscraper Design
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
