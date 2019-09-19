@@ -52,10 +52,12 @@ align-items: center;
 
 
 .projectdetail_i_ar img{
+	max-width: 100%;
 	height: 100vh;
 }
 
 .projectdetail_i_80h img{
+	max-width: 100%;
 	height: 80vh;
 }
 
