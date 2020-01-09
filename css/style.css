@@ -6,34 +6,44 @@ top: 0;
 right: 0;
 z-index: 997;
 }
+.project{
+margin-top: 20vh;
+}
 .subnav{
 margin-top: 10vh;
 }
-
 .projecthome{
-	margin-top: 15vh;
+margin-top: 1vh;
 }
-
 .projecthome_image img{
-	width: 100%;
+width: 100%;
 }
+.projecthome_image_intro {
+width: 100%;
+height: 600%
+overflow: hidden;
+
+}
+.projecthome_image_intro img{
+width: 100%;
 
 
+}
+.projectvidwo{
+height: -70vh;
+overflow-y: hidden;
+}
 .projecthome_text{
-	margin-top: 5vh;
-	margin-bottom: 5vh;
+margin-top: 300px;
 }
-
 .project-container{
 width: 70%;
 }
-
 .projectintro{
 position: relative;
 width: 100%;
 height: 85vh;
 }
-
 .projectintro_container{
 height: 100%;
 display: flex;
@@ -41,39 +51,28 @@ justify-content: center;
 text-align: center;
 align-items: center;
 }
-
 .projectdetail_container{
-	margin-bottom: 10vh;
+margin-bottom: 10vh;
 }
-
 .projectdetail_i img{
-	width: 100%;
+width: 100%;
 }
-
-
 .projectdetail_i_ar img{
-	max-width: 100%;
-	height: 100vh;
-}
+width: 100%;
 
+}
 .projectdetail_i_80h img{
-	max-width: 100%;
-	height: 80vh;
+width: 100%;
 }
-
-
 .projectdetail_content{
-	margin-top: 100px;
+margin-top: 100px;
 }
 .projectdetail_t{
-	margin-bottom: 50px;
+margin-bottom: 50px;
 }
-
-
 #name{
 justify-content: center;
 text-align: center;
-
 }
 .introbg{
 background-color: white;

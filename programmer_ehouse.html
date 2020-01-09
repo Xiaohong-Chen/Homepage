@@ -12,29 +12,30 @@
 	</head>
 	<body>
 		<header id="header">
-			<nav class="navbar navbar-expand-sm navbar-light bg-white justify-content-center" style="border-bottom: 1px solid silver">
+			<nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center" >
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link active" href="index.html">Programming</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="programmer.html">Programming</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="architect.html">Architecture</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
+						<a class="nav-link " href="index_architect.html">Architecture</a>
 					</li>
 				</ul>
 			</nav>
-		</header>
-		<div class="subnav">
-			<div class="text-center">
-				<nav class="navbar navbar-expand-sm navbar-light justify-content-center" style="height: 5vh" >
+			<nav class="navbar navbar-expand-lg navbar-light bg-light " style="height: 5vh" >
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 					<ul class="navbar-nav">
 						<li class="nav-item mx-2">
-							<a class="nav-link" href="programmer.html">All</a>
+							<a class="nav-link " href="index.html">All</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="programmer_xworkflow.html">X-Workflow</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="programmer_datavisual.html">Geovisualization</a>
 						</li>
 						<li class="nav-item mx-2">
 							<a class="nav-link active" href="programmer_ehouse.html">E-House</a>
@@ -51,67 +52,86 @@
 						<li class="nav-item mx-2">
 							<a class="nav-link" href="programmer_danalytics.html">D-Analytics</a>
 						</li>
-						<li class="nav-item mx-2">
-							<a class="nav-link" href="programmer_ecommerce.html">E-commerce</a>
-						</li>
 					</ul>
-				</nav>
-			</div>
-		</div>
-		
+				</div>
+			</nav>
+		</header>
 		<div class="project">
 			<div class="project-container mx-auto">
 				<div class="container-fluid">
-					<div class="projectintro">
-						<div class="projectintro_container">
-							<div class="projectintro_content">
-								<div class="projectintro_t mb-3 " >
-									<h2>Smart house window system</h2>
+					<div class="bg-light">
+						
+						<div class="row mt-5 m-5 text-center">
+							<div class="col-xl-4 col-lg-12">
+								<div class="projecthome_image_intro" >
+									<a href="programmer_ecommerce.html">
+										<img src="image\programmer\e-house\app.jpg" class="rounded" alt="...">
+									</a>
 								</div>
-								<div class="projectintro_p mb-4 text-left">
+							</div>
+							
+							<div class="col-xl-8 mt-5 col-lg-12 ">
+								<div class="text-center mt-5">
+									<h4>E-House</h4>
 									<p>
-										In order to make human’s life more convenient, recently, I have created an application of House Window System about changing window’s status automatically according to the weather by using openweathermap API, JSF(Java Server Faces), Database System and AWS(Amazon Web Services). By using the openweathermap API, I obtain the current weather. Then I create an application of House Window System by applying the knowledge of computing design in architecture and programming language in Computer Science to calculate the weather status and automatically and remotely change the ventilation, color and opening range status of the house window. 
+										2019 | Java
+										<br/>
+									Smart House Window System </p>
+								</div>
+								<div class="text-justify mt-5">
+									<p>
+										The project is designed for changing window’s status automatically according to the weather by using openweathermap API, JSF(JavaServer Faces), Database System and AWS(Amazon Web Services). By using the openweathermap API, I obtain the current weather. Then I create an application of House Window System by applying the knowledge of computing design in architecture and programming language in Computer Science to calculate the weather status and automatically and remotely change the ventilation, color and opening range status of the house window
 									</p>
 								</div>
-								<div class="projectintro_g">
+								<div class="projectintro_g mt-5">
 									<h4>
-									<a href="https://github.com/Xiaohong-Chen/CCAC_CIT244_Java/tree/master/Project_final/houseSystemWebProject" class="badge badge-pill badge-secondary">GO TO GIT</a>
+									<a href="https://github.com/Xiaohong-Chen/CCAC_CIT244_Java/tree/master/Project_final/houseSystemWebProject" class="badge badge-pill badge-secondary">JAVA CODE
+										<i class="fas fa-chevron-right  text-center"></i>
+										<i class="fas fa-chevron-right  text-center"></i>
+										<i class="fas fa-chevron-right  text-center"></i>
+									</a>
+									
 									</h4>
-									<i class="fas fa-chevron-down mt-4 text-center"></i>
+									
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="projectdetail">
-						<div class="projectdetail_container">
-							<div class="projectdetail_content">
-								<div class="projectdetail_i mb-3 text-center">
-									<img src="image\programmer\e-house\app.gif">
+						<hr/>
+						<div class="projectintro">
+							<h2 class="text-center mb-5 mt-5"><u>Overview</u></h2>
+							<div class="projectdetail">
+								<div class="projectdetail_container">
+									<div class="projectdetail_content">
+										<div class="projectdetail_i mb-3 text-center">
+											<img src="image\programmer\e-house\app.gif">
+										</div>
+									</div>
+								</div>
+								<div class="projectdetail_container">
+									<div class="projectdetail_content">
+										<div class="projectdetail_t mb-5 text-center" >
+											<h4>System flowchart</h4>
+											<i class="fas fa-chevron-down mt-3"></i>
+										</div>
+										<div class="projectdetail_i mb-3 ">
+											<img src="image\programmer\e-house\SystemDiagram.jpg"  class="bg-light">
+										</div>
+									</div>
+								</div>
+								<div class="projectdetail_container">
+									<div class="projectdetail_content">
+										<div class="projectdetail_t mb-5 text-center" >
+											<h4>Java flowchart</h4>
+											<i class="fas fa-chevron-down mt-3"></i>
+										</div>
+										<div class="projectdetail_i mb-3 text-center">
+											<img src="image\programmer\e-house\ClassDiagram.jpg"  class="bg-light">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="projectdetail_container">
-							<div class="projectdetail_content">
-								<div class="projectdetail_t mb-5 text-center" >
-									<h4>System flowchart</h4>
-									<i class="fas fa-chevron-down mt-3"></i>
-								</div>
-								<div class="projectdetail_i mb-3 ">
-									<img src="image\programmer\e-house\SystemDiagram.jpg"  class="bg-light">
-								</div>
-							</div>
-						</div>
-						<div class="projectdetail_container">
-							<div class="projectdetail_content">
-								<div class="projectdetail_t mb-5 text-center" >
-									<h4>Java flowchart</h4>
-									<i class="fas fa-chevron-down mt-3"></i>
-								</div>
-								<div class="projectdetail_i mb-3 text-center">
-									<img src="image\programmer\e-house\ClassDiagram.jpg"  class="bg-light">
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
